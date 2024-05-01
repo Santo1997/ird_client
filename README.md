@@ -1,9 +1,18 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Web Recruitment Test
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# ird_client" 
+- Use Database for creating endpoints to fetch
+- Using Node JS
+- Live Server access
+- Using ``` react-tabs ```
+- Using ``` mongodb ```
+- Using Tailwind CSS & REACT JS
+- Vercel does not support SQL. So it used MongoDB instead of Sqlite
+
+
+## 🔗 Links
+- [Live Website](https://ornate-malabi-2ffc2b.netlify.app/)
+
+- [Server site](https://ird-task-server-pink.vercel.app/)
