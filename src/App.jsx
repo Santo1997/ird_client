@@ -6,8 +6,6 @@ import {FaBookmark} from "react-icons/fa6";
 import {PiBookOpenFill, PiSquaresFourFill} from "react-icons/pi";
 import {BsFillSendFill} from "react-icons/bs";
 import TabSection from "./components/layout/TabSection";
-// import TabViewer from "./components/layout/TabViewer";
-// import Page from "./components/utilities/Page";
 import Sidebar from "./components/layout/Sidebar";
 import {Outlet} from "react-router-dom";
 
@@ -33,8 +31,6 @@ function App() {
           </div>
           <div className="col-span-2 bg-white rounded-2xl overflow-hidden tabviewer">
             <Outlet></Outlet>
-            {/* <TabViewer />
-            <Page /> */}
           </div>
           <div className="flex items-start bg-white rounded-2xl overflow-hidden sidebar w-full">
             <Sidebar />
