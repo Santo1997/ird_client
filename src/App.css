@@ -1,0 +1,35 @@
+#root {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.custom_parent:hover .custom_child {
+  @apply bg-emerald-600 text-white;
+}
+
+.custom_parent:hover .custom_name {
+  @apply text-emerald-600;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #fff;
+}
+
+.tabsection:hover ::-webkit-scrollbar-thumb {
+  background: #cfcece;
+}
+.tabviewer:hover ::-webkit-scrollbar-thumb {
+  background: #cfcece;
+}
+.sidebar:hover ::-webkit-scrollbar-thumb {
+  background: #cfcece;
+}
