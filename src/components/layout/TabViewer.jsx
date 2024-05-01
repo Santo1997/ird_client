@@ -10,13 +10,13 @@ const TabViewer = () => {
   const [chapters, setChapters] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/getBooks`)
+    fetch(`https://ird-task-server-pink.vercel.app/getBooks`)
       .then((res) => res.json())
       .then((data) => setBooks(data));
   }, []);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/getChapter`)
+    fetch(`https://ird-task-server-pink.vercel.app/getChapter`)
       .then((res) => res.json())
       .then((data) => setChapters(data));
   }, []);

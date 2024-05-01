@@ -15,27 +15,27 @@ const Page = () => {
   const [chapters, setChapters] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/getBooks`)
+    fetch(`https://ird-task-server-pink.vercel.app/getBooks`)
       .then((res) => res.json())
       .then((data) => setBooks(data));
   }, []);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/getChapter`)
+    fetch(`https://ird-task-server-pink.vercel.app/getChapter`)
       .then((res) => res.json())
       .then((data) => setChapters(data));
   }, []);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/getSection`)
+    fetch(`https://ird-task-server-pink.vercel.app/getSection`)
       .then((res) => res.json())
       .then((data) => setSection(data));
   }, []);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/getHadith`)
+    fetch(`https://ird-task-server-pink.vercel.app/getHadith`)
       .then((res) => res.json())
-      .then((data) => setHadith(data)); 
+      .then((data) => setHadith(data));
   }, []);
 
   return (
