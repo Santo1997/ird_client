@@ -103,51 +103,6 @@ const Page = () => {
           }
         })
       )}
-
-      {/* {section.map((sect) =>
-        hadith.map((hadis) => {
-          if (sect.id === hadis.hadith_id) {
-            return (
-              <div key={sect.id}>
-                <div className="bg-white p-4 rounded-2xl mb-3">
-                  <p className="flex items-center gap-3 font-bold">
-                    <span>
-                      <HiOutlineBookOpen className="text-emerald-600 text-4xl" />
-                    </span>
-                    <span> {sect.number} </span>
-                  </p>
-                  <p className="py-4  text-sm font-bold">{sect.title}</p>
-                  {sect?.preface ? <p className="text-xs pt-2 border-t-2 leading-loose"> {sect.preface}</p> : null}
-                </div>
-                <div className="bg-white p-4 rounded-2xl mb-3">
-                  <p className="flex items-center gap-3 font-bold">
-                    <span>
-                      <GiSevenPointedStar className="text-emerald-600 text-4xl" />
-                    </span>
-                    <span className="text-2xl font-bold text-emerald-600"> {convertNum(hadis.section_id)} </span>
-                  </p>
-                  <p className="py-4 border-b-2 text-2xl text-right leading-loose">{hadis.ar}</p>
-                  <p className="text-xs pt-2 leading-loose">
-                    <strong className="text-emerald-600">{hadis.narrator}থেকে বর্ণিত:</strong>
-                    <br /> <br />
-                    <span>{hadis.bn}</span>
-                  </p>
-                  <p className="mt-10 flex justify-between items-center">
-                    <span className="text-sm me-24">
-                      হাদিসের মান : <button className="btn btn-sm btn-success text-white">{hadis.grade}</button>
-                    </span>
-                    <TiTabsOutline className="text-2xl text-gray-500" />
-                    <FaRegBookmark className="text-2xl text-gray-500" />
-                    <FiShare2 className="text-2xl text-gray-500" />
-                    <ImInfo className="text-2xl text-gray-500" />
-                    <FaExternalLinkAlt className="text-2xl text-gray-500" />
-                  </p>
-                </div>
-              </div>
-            );
-          }
-        })
-      )} */}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import {FaHandHoldingHeart} from "react-icons/fa6";
 import Search from "../utilities/Search";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,10 +8,10 @@ const Header = () => {
       <div className="navbar py-0">
         <div className="navbar-start">
           <img src="https://ihadis.com/assets/home-logo.png" className="ml-3 h-9 w-10" />
-          <a className="ml-4 grid justify-items-start cursor-pointer">
+          <Link to={"/"} className="ml-4 grid justify-items-start cursor-pointer">
             <span className="text-lg">হাদিস সমূহ</span>
             <span className="text-[10px]">হাদিস পড়ুন শিখুন এবং জানুন</span>
-          </a>
+          </Link>
         </div>
 
         <div className="navbar-end">
@@ -26,5 +27,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
